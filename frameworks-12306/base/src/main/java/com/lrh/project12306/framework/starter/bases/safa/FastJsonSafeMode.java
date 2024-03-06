@@ -23,7 +23,7 @@ import org.springframework.beans.factory.InitializingBean;
  * @Package: com.lrh.project12306.framework.starter.bases.safa
  * @ClassName: FastJsonSafeMode
  * @Author: 63283
- * @Description:
+ * @Description: FastJson安全模式，开启后关闭类型隐式传递
  * @Date: 2024/3/6 0:07
  */
 

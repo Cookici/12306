@@ -29,7 +29,7 @@ import org.springframework.context.annotation.Bean;
  * @Package: com.lrh.project12306.framework.starter.bases.config
  * @ClassName: ApplicationBaseAutoConfiguration
  * @Author: 63283
- * @Description:
+ * @Description: 应用基础自动装配
  * @Date: 2024/3/5 23:59
  */
 

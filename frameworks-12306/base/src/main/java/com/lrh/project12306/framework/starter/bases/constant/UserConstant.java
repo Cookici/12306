@@ -21,7 +21,7 @@ package com.lrh.project12306.framework.starter.bases.constant;
  * @Package: com.lrh.project12306.framework.starter.bases.constant
  * @ClassName: UserConstant
  * @Author: 63283
- * @Description:
+ * @Description: 用户常量
  * @Date: 2024/3/6 0:05
  */
 

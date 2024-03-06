@@ -28,7 +28,7 @@ import java.util.Map;
  * @Package: com.lrh.project12306.framework.starter.bases
  * @ClassName: ApplicationContextHolder
  * @Author: 63283
- * @Description:
+ * @Description: Application context holder.
  * @Date: 2024/3/6 0:07
  */
 

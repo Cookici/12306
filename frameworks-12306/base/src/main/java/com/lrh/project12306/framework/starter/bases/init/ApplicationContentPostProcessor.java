@@ -28,7 +28,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Package: com.lrh.project12306.framework.starter.bases.init
  * @ClassName: ApplicationContentPostProcessor
  * @Author: 63283
- * @Description:
+ * @Description: 应用初始化后置处理器，防止Spring事件被多次执行
  * @Date: 2024/3/6 0:05
  */
 @RequiredArgsConstructor

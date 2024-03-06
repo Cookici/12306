@@ -23,11 +23,17 @@ import org.springframework.context.ApplicationEvent;
  * @Package: com.lrh.project12306.framework.starter.bases.init
  * @ClassName: ApplicationInitializingEvent
  * @Author: 63283
- * @Description:
+ * @Description: 应用初始化事件
+ * 规约事件，通过此事件可以查看业务系统所有初始化行为
  * @Date: 2024/3/6 0:06
  */
 
 public class ApplicationInitializingEvent extends ApplicationEvent {
+
+    /**
+     * Create a new ApplicationEvent.
+     * @param source source – the object on which the event initially occurred or with which the event is associated (never null)
+     */
     public ApplicationInitializingEvent(Object source) {
         super(source);
     }

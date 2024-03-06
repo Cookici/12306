@@ -27,7 +27,7 @@ import java.util.function.Supplier;
  * @Package: com.lrh.project12306.framework.starter.bases
  * @ClassName: Singleton
  * @Author: 63283
- * @Description:
+ * @Description: 单例对象容器
  * @Date: 2024/3/6 0:07
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
