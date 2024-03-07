@@ -5,11 +5,11 @@ package com.lrh.project12306.framework.starter.convention.errorcode;
  * @Package: com.lrh.project12306.framework.starter.convention.errorcode
  * @ClassName: BaseErrorCode
  * @Author: 63283
- * @Description:
+ * @Description: 基础错误码定义
  * @Date: 2024/3/6 21:11
  */
 
-public enum BaseErrorCode implements IErrorCode{
+public enum BaseErrorCode implements IErrorCode {
     // ========== 一级宏观错误码 客户端错误 ==========
     CLIENT_ERROR("A000001", "用户端错误"),
 

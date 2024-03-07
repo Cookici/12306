@@ -34,6 +34,7 @@ import java.util.concurrent.TimeUnit;
  */
 @RequiredArgsConstructor
 public class StringRedisTemplateProxy  implements DistributedCache{
+
     private final StringRedisTemplate stringRedisTemplate;
     private final RedisDistributedProperties redisProperties;
     private final RedissonClient redissonClient;

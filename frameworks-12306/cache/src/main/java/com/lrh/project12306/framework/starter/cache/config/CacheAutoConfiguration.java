@@ -21,7 +21,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 
 @AllArgsConstructor
 @EnableConfigurationProperties({RedisDistributedProperties.class, BloomFilterPenetrateProperties.class})
-public class CacheAutoConfig {
+public class CacheAutoConfiguration {
 
     private final RedisDistributedProperties redisDistributedProperties;
 
