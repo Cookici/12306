@@ -4,6 +4,7 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
 import com.lrh.project12306.biz.ticketservice.common.constant.TicketRocketMQConstant;
 import com.lrh.project12306.biz.ticketservice.common.enums.CanalExecuteStrategyMarkEnum;
+import com.lrh.project12306.biz.ticketservice.mq.event.CanalBinlogEvent;
 import com.lrh.project12306.framework.starter.designpattern.strategy.AbstractStrategyChoose;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -5,12 +5,12 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.xxl.job.core.context.XxlJobHelper;
+import com.xxl.job.core.handler.IJobHandler;
 import com.lrh.project12306.biz.ticketservice.dao.entity.TrainDO;
 import com.lrh.project12306.biz.ticketservice.dao.mapper.TrainMapper;
 import com.lrh.project12306.framework.starter.bases.ApplicationContextHolder;
 import com.lrh.project12306.framework.starter.common.toolkit.EnvironmentUtil;
-import com.xxl.job.core.context.XxlJobHelper;
-import com.xxl.job.core.handler.IJobHandler;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
@@ -26,7 +26,7 @@ import java.util.Optional;
  * @Date: 2024/3/7 22:36
  */
 
-public class AbstractTrainStationJobHandlerTemplate extends IJobHandler {
+public abstract class AbstractTrainStationJobHandlerTemplate extends IJobHandler {
     /**
      * 模板方法模式具体实现子类执行定时任务
      *
