@@ -9,7 +9,7 @@ import com.lrh.project12306.biz.userservice.dto.resp.PassengerRespDTO;
 
 /**
  * @ProjectName: project-12306
- * @Package: com.lrh.project12306.biz.userservice.service.handler.filter.user
+ * @Package: com.lrh.project12306.biz.userservice.service
  * @ClassName: asd123
  * @Author: 63283
  * @Description: 乘车人接口层

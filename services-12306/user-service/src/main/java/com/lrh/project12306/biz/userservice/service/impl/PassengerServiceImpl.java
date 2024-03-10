@@ -41,7 +41,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @ProjectName: project-12306
- * @Package: com.lrh.project12306.biz.userservice.service.handler.filter.user
+ * @Package: com.lrh.project12306.biz.userservice.service.impl
  * @ClassName: asd123
  * @Author: 63283
  * @Description: 乘车人接口实现层
