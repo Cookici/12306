@@ -4,6 +4,7 @@ import cn.hippo4j.common.executor.support.BlockingQueueTypeEnum;
 import cn.hippo4j.core.executor.DynamicThreadPool;
 import cn.hippo4j.core.executor.support.ThreadPoolBuilder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  * @Description: Hippo4j 动态线程池配置 异步线程池框架，支持线程池动态变更&监控&报警
  * @Date: 2024/3/7 22:09
  */
-
+@Configuration
 public class Hippo4jThreadPoolConfiguration {
 
     /**
