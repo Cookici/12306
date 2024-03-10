@@ -9,6 +9,7 @@ import com.lrh.project12306.biz.ticketservice.mq.domain.MessageWrapper;
 import com.lrh.project12306.biz.ticketservice.mq.event.DelayCloseOrderEvent;
 import com.lrh.project12306.biz.ticketservice.remote.TicketOrderRemoteService;
 import com.lrh.project12306.biz.ticketservice.remote.dto.TicketOrderDetailRespDTO;
+import com.lrh.project12306.biz.ticketservice.remote.dto.TicketOrderPassengerDetailRespDTO;
 import com.lrh.project12306.biz.ticketservice.service.SeatService;
 import com.lrh.project12306.biz.ticketservice.service.TrainStationService;
 import com.lrh.project12306.biz.ticketservice.service.handler.ticket.dto.TrainPurchaseTicketRespDTO;
