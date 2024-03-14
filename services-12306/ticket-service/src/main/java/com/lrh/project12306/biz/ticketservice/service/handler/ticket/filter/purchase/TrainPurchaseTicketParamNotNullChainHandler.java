@@ -5,6 +5,8 @@ import cn.hutool.core.util.StrUtil;
 import com.lrh.project12306.biz.ticketservice.dto.domain.PurchaseTicketPassengerDetailDTO;
 import com.lrh.project12306.biz.ticketservice.dto.req.PurchaseTicketReqDTO;
 import com.lrh.project12306.framework.starter.convention.exception.ClientException;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.Objects;
 
@@ -16,7 +18,7 @@ import java.util.Objects;
  * @Description: 购票流程过滤器之验证参数必填
  * @Date: 2024/3/7 23:05
  */
-
+@Component
 public class TrainPurchaseTicketParamNotNullChainHandler implements TrainPurchaseTicketChainFilter<PurchaseTicketReqDTO> {
     @Override
     public void handler(PurchaseTicketReqDTO requestParam) {

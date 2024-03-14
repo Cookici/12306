@@ -69,19 +69,19 @@ rules:
       order_table_complex_mod:
         type: CLASS_BASED
         props:
-          algorithmClassName: org.opengoofy.index12306.biz.orderservice.dao.algorithm.OrderCommonTableComplexAlgorithm
+          algorithmClassName: com.lrh.project12306.biz.orderservice.dao.algorithm.OrderCommonTableComplexAlgorithm
           sharding-count: 16
           strategy: complex
       order_item_table_complex_mod:
         type: CLASS_BASED
         props:
-          algorithmClassName: org.opengoofy.index12306.biz.orderservice.dao.algorithm.OrderCommonTableComplexAlgorithm
+          algorithmClassName: com.lrh.project12306.biz.orderservice.dao.algorithm.OrderCommonTableComplexAlgorithm
           sharding-count: 16
           strategy: complex
       pay_table_complex_mod:
         type: CLASS_BASED
         props:
-          algorithmClassName: org.opengoofy.index12306.biz.payservice.dao.algorithm.PayTableComplexAlgorithm
+          algorithmClassName: com.lrh.project12306.biz.payservice.dao.algorithm.PayTableComplexAlgorithm
           sharding-count: 16
           strategy: complex
       order_passenger_relation_table_mod:

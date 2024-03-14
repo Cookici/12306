@@ -50,7 +50,7 @@ public class PassengerController {
      */
     @Idempotent(
             uniqueKeyPrefix = "index12306-user:lock_passenger-alter:",
-            key = "T(com.lrh.project12306.frameworks.starter.user.core.UserContext).getUsername()",
+            key = "T(com.lrh.project12306.framework.starter.user.core.UserContext).getUsername()",
             type = IdempotentTypeEnum.SPEL,
             scene = IdempotentSceneEnum.RESTAPI,
             message = "正在新增乘车人，请稍后再试..."
@@ -66,7 +66,7 @@ public class PassengerController {
      */
     @Idempotent(
             uniqueKeyPrefix = "index12306-user:lock_passenger-alter:",
-            key = "T(com.lrh.project12306.frameworks.starter.user.core.UserContext).getUsername()",
+            key = "T(com.lrh.project12306.framework.starter.user.core.UserContext).getUsername()",
             type = IdempotentTypeEnum.SPEL,
             scene = IdempotentSceneEnum.RESTAPI,
             message = "正在修改乘车人，请稍后再试..."
@@ -82,7 +82,7 @@ public class PassengerController {
      */
     @Idempotent(
             uniqueKeyPrefix = "index12306-user:lock_passenger-alter:",
-            key = "T(com.lrh.project12306.frameworks.starter.user.core.UserContext).getUsername()",
+            key = "T(com.lrh.project12306.framework.starter.user.core.UserContext).getUsername()",
             type = IdempotentTypeEnum.SPEL,
             scene = IdempotentSceneEnum.RESTAPI,
             message = "正在移除乘车人，请稍后再试..."

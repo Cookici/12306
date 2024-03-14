@@ -2,6 +2,7 @@ package com.lrh.project12306.framework.starter.database.base;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
+import lombok.Data;
 
 import java.util.Date;
 
@@ -13,7 +14,7 @@ import java.util.Date;
  * @Description: 数据持久层基础属性
  * @Date: 2024/3/6 20:36
  */
-
+@Data
 public class BaseDao {
     /**
      * 创建时间

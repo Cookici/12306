@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
  * @Package: com.lrh.project12306.framework.starter.idempotent.core
  * @ClassName: RepeatConsumptionException
  * @Author: 63283
- * @Description:
+ * @Description: 重复消费异常
  * @Date: 2024/3/7 11:17
  */
 @RequiredArgsConstructor

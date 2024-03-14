@@ -3,6 +3,8 @@ package com.lrh.project12306.biz.ticketservice.service.handler.ticket.filter.que
 import cn.hutool.core.util.StrUtil;
 import com.lrh.project12306.biz.ticketservice.dto.req.TicketPageQueryReqDTO;
 import com.lrh.project12306.framework.starter.convention.exception.ClientException;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 /**
  * @ProjectName: project-12306
@@ -12,7 +14,7 @@ import com.lrh.project12306.framework.starter.convention.exception.ClientExcepti
  * @Description: 查询列车车票流程过滤器之验证数据是否为空或空的字符串
  * @Date: 2024/3/7 23:08
  */
-
+@Component
 public class TrainTicketQueryParamNotNullChainFilter implements TrainTicketQueryChainFilter<TicketPageQueryReqDTO>{
     @Override
     public void handler(TicketPageQueryReqDTO requestParam) {

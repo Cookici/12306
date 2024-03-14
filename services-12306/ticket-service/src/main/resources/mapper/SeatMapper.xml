@@ -33,7 +33,7 @@
         group by carriage_number
     </select>
 
-    <select id="listSeatTypeCount" resultType="org.opengoofy.index12306.biz.ticketservice.dto.domain.SeatTypeCountDTO">
+    <select id="listSeatTypeCount" resultType="com.lrh.project12306.biz.ticketservice.dto.domain.SeatTypeCountDTO">
         select seat_type as seatType, count(*) as seatCount
         from t_seat
         where train_id = #{trainId}
